@@ -50,6 +50,8 @@ const SignIn = () => {
             <p>Don't Have An Account? <Link to='/SignUp'>SIGN UP</Link></p>
         
         </form>
+
+        
         
     </div>
   )

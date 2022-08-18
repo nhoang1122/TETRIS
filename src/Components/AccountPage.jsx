@@ -105,13 +105,13 @@ const AccountPage = () => {
 
   const move = ({ keyCode }) => {
     if (!gameOver) {
-      if (keyCode === 37) {
+      if (keyCode === 65) {
         movePlayer(-1);
-      } else if (keyCode === 39) {
+      } else if (keyCode === 68) {
         movePlayer(1);
-      } else if (keyCode === 40) {
+      } else if (keyCode === 83) {
         dropPlayer();
-      } else if (keyCode === 38) {
+      } else if (keyCode === 87) {
         playerRotate(stage, 1);
       }
     }
@@ -120,10 +120,8 @@ const AccountPage = () => {
   return (
     <div>
         <div className='top'>
-            <p className='p'>WELCOME, {user && user.email}!</p><button className="logout" onClick={handleLogOut}>LOG OUT</button>
+            <p className='p'>WELCOME, {user && user.email}!</p><button className="logout" onClick={handleLogOut}>LOGOUT</button>
         </div>
-
-        <br />
 
         <StyledTetrisWrapper
       role="button"
