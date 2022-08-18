@@ -1,0 +1,26 @@
+.logout {
+    background-color: #A0DDE6;
+
+    box-sizing: border-box;
+    
+    padding: 2px;
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  
+    font-size: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p {
+    font-size: 30px;
+    color: #A0DDE6;
+    margin-left: 20px;
+}
