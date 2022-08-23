@@ -7,6 +7,8 @@ export const StyledTetrisWrapper = styled.div`
   border-radius:20px;
   background-size: cover;
   overflow: hidden;
+
+  margin-left: 5%;
 `;
 
 export const StyledTetris = styled.div`
